@@ -9,7 +9,7 @@
          */
         int comment = 0;
         int debug=0;  /* prints out debug statements if desired */
-        int lineNumber = 1; /* line count for printing error location - Ian Johnson, 1-26-2018*/
+        int lineNumber = 1; /* line count for printing error location - Ian Johnson, 1-26-2018 */
 %%
 "/*"	{
 	      /* prints error message for nested comments and the line number the error occured
